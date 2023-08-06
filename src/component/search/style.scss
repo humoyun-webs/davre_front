@@ -1,0 +1,36 @@
+
+.search-bar {
+    max-width: 1200px ;
+    margin: 0px auto;
+    padding: 20px;
+    display: flex;
+    margin-top: 100px;
+    align-items: center;
+    border-radius: 8px;
+    
+  
+    .search-form {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+  
+      .search-input,
+      .location-input {
+        padding: 20px;
+        margin-right: 10px;
+        border: 1px solid #ccc;
+        border-radius: 20px;
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        -ms-border-radius: 20px;
+        -o-border-radius: 20px;
+}
+  
+      .btn-primary {
+        padding: 12px 20px;
+        border-radius: 4px;
+        font-weight: 900;
+      }
+    }
+  }
+  
